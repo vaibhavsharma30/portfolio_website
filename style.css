@@ -39,7 +39,7 @@ body {
 #main::before {
   content: "";
   width: 100%;
-  height: 30em;
+  height: 33em;
   position: absolute;
   right: 0em;
   z-index: -1;
@@ -78,11 +78,7 @@ body {
 #main .user_info .btn:hover {
   background: var(--secondary-color);
 }
-#particles-js {
-  width: 100%;
-  position: absolute;
-  z-index: -1;
-}
+
 
 /* ---------- about section ---------- */
 .about {
@@ -254,7 +250,7 @@ body {
   width: 1.8em;
   height: 100px;
   margin-left: 0.1em;
-  font-size: 6em;
+  font-size: 5em;
 }
 .projects .container .main_box .box {
   width: 20em;
@@ -300,7 +296,7 @@ footer .social_media_icons{
 footer .social_media_icons a{
     margin: 0 .8em;
     margin-bottom: 0px;
-    color: rgba(0, 0, 0, 0.966);
+    color: rgba(195, 189, 189, 0.966);
     border-radius: 50px;
 }
 footer .social_media_icons a i{
@@ -359,8 +355,13 @@ footer .social_media_icons a:hover i{
   }
 }
 @media (max-width: 700px) {
+ 
   body {
     font-size: 13px;
+  }
+  #main .user_info .user_name {
+    
+    font-size: 4em;
   }
   .skill_box .box{
     margin: 2em 0.5em;
@@ -369,9 +370,11 @@ footer .social_media_icons a:hover i{
   }
 }
 @media (max-width: 450px) {
-  #main .user_img img{
-    width: 15em;
-    height: 15em;
+  
+    
+  #main .user_info .user_name {
+    
+    font-size: 3em;
   }
   .projects .container .main_box .icon{
     height: 100%;
