@@ -69,11 +69,11 @@ body {
   padding: 0.6em 2em;
     
   color: var(--color);
-  font-size: 1.1em;
+  font-size: 1em;
   cursor: pointer;
   text-decoration: none;
   border: 2px solid var(--secondary-color);
-  transition: all 0.5s;
+  transition: all 0.4s;
 }
 #main .user_info .btn:hover {
   background: var(--secondary-color);
