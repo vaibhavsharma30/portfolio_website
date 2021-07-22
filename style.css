@@ -136,7 +136,7 @@ body {
 }
 .skills::after {
   right: -10em;
-  top: 8em;
+  top: 0em;
   
   background: linear-gradient(
     to right,
